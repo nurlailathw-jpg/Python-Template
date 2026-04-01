@@ -30,12 +30,12 @@ args = "Run Python Basics"
 name = "Run Python Basics"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python3 python_basics.py"
-
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
 
 [agent]
 stack = "PNPM_WORKSPACE"
