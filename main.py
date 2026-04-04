@@ -1,4 +1,5 @@
-# ============================================================
+## my first script
+============================================================
 #  Live 14 - Python Programming
 #  Topics: Variables, Data Types, Data Structures,
 #          Control Flow, Functions
